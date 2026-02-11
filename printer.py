@@ -40,5 +40,5 @@ def print_file():
         return jsonify({"erro": str(e)}), 500
 
 if __name__ == '__main__':
-    # Roda na porta 5000
+    # Roda na porta 3500
     app.run(port=3500)
